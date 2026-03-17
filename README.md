@@ -93,9 +93,6 @@ In a new terminal migrate the truffle contract to local blockchain
 23.truffle migrate
 
 ## Learning Outcome
-Through this project I learned:
-## Learning Outcomes
-
 Through this project, I gained practical understanding of:
 - How blockchain can be used for secure voting systems
 - Basic smart contract development using Solidity
