@@ -48,9 +48,8 @@ dVoting
 
 2.Clone the repository by using the command
 git clone https://github.com/gousiyabanubeedi/blockchain-Based-Voting-System.git
-Download and install Ganache.
 
-3.Create a workspace named developement, in the truffle projects section add truffle-config.js by clicking ADD PROJECT button.
+3.Download and install Ganache-Create a workspace named developement, in the truffle projects section add truffle-config.js by clicking ADD PROJECT button.
 
 4.Download Metamask extension for the browser.
 
@@ -58,21 +57,19 @@ Download and install Ganache.
 
 6.Add network to the metamask. ( Network name - Localhost 7575, RPC URl - http://localhost:7545, Chain ID - 1337, Currency symbol - ETH)
 
-7.Open MySQL and create database named voter_db. (DON'T USE XAMPP)
-
-8.In the database created, create new table named voters in the given format and add some values.
-9.Install truffle globally
-10.npm install -g truffle
-11.Go to the root directory of repo and install node modules
-12.npm install
-13.Install python dependencies
-14.pip install fastapi mysql-connector-python pydantic python-dotenv uvicorn uvicorn[standard] PyJWT
+7.Open MySQL and create database named voter_db.- In the database created, create new table named voters in the given format and add some values.
+8.Install truffle globally
+9.npm install -g truffle
+10.Go to the root directory of repo and install node modules
+11.npm install
+12.Install python dependencies
+13.pip install fastapi mysql-connector-python pydantic python-dotenv uvicorn uvicorn[standard] PyJWT
 Usage
 Note: Update the database credentials in the ./Database_API/.env file.
 Open terminal at the project directory
 
-15.Open Ganache and it's development workspace.
-16.open terminal in project's root directory and run the command
+14.Open Ganache and it's development workspace.
+15.open terminal in project's root directory and run the command
 
 16.truffle console - then compile the smart contracts with command
 17.compile - exit the truffle console
@@ -96,7 +93,7 @@ In a new terminal migrate the truffle contract to local blockchain
 Through this project, I gained practical understanding of:
 - How blockchain can be used for secure voting systems
 - Basic smart contract development using Solidity
-- Deploying contracts using Truffle and Ganache
+- Deploying contracts using Truffle and Ganache and Metamask
 - Connecting a web application
 
 
